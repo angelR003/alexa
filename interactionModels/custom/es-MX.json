@@ -1,0 +1,47 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "pregunta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "ConocemeIntent",
+          "samples": [
+            "quiero saber {pregunta}",
+            "dime {pregunta}",
+            "me podrias decir {pregunta}",
+            "tengo una duda sobre {pregunta}",
+            "puedo preguntarte {pregunta}",
+            "hazme caso y dime {pregunta}"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "preguntame ya"
+    }
+  }
+}
